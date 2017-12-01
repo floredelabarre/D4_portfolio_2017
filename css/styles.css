@@ -10,6 +10,7 @@ line-height: 1.45;
 
 .bio-content-block {
   columns: 2;
+  text-align: center;
 }
 
 h1 {
