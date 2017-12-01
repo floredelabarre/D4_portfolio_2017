@@ -9,8 +9,7 @@ line-height: 1.45;
 }
 
 .bio-content-block {
-  display: flex;
-  align-items: center;
+  columns: 2;
 }
 
 h1 {
