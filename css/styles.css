@@ -1,0 +1,94 @@
+body {
+background-color: #edefed;
+font-weight: 400;
+line-height: 1.45;
+}
+
+#bio {
+    min-height: 45vh;
+}
+
+.bio-content-block {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5em;
+  margin-top: 0;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 1.3em;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+li {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+header {
+  padding: 5em;
+  position: relative;
+  min-height: 80vh;
+  background-image: url(images/bgheader.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  padding : 3em;
+  color: #0000ff;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #0000ff;
+  color: #dddddd;
+  padding: 2em;
+  position: relative;
+}
+
+.header-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2em;
+  color: white;
+
+
+}
+
+.header-content h1 {
+  font-size: 3em;
+}
+
+#comp ul {
+  display: flex;
+}
+
+#port ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#port li {
+  max-width: 30%;
+  margin: 22px;
+}
+
+#port li img {
+  width: 100%;
+}
