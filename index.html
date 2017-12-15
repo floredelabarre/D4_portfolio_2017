@@ -1,110 +1,297 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta charset="utf-8">
-    <title>Flore de Labarre_My web page</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <header>
-      <div class="header-content">
-        <h1>Flore de Labarre</h1>
-        <p>Hi I'm Flore, I'm a web designer from Bordeaux, France</p>
-      </div>
-    </header>
-
-
-                <section id="bio">
-                  <h1>Boigraphy</h1>
-                  <div class="bio-content-block">
-                    <p>
-                    John William Coltrane, also known as "Trane" (September 23, 1926 – July 17, 1967),[1] was an American jazz saxophonist and composer. Working in the bebop and hard bop idioms early in his career, Coltrane helped pioneer the use of modes in jazz and was later at the forefront of free jazz. He led at least fifty recording sessions during his career, and appeared as a sideman on many albums by other musicians, including trumpeter Miles Davis and pianist Thelonious Monk.
-                    </p>
-                    <p>As his career progressed, Coltrane and his music took on an increasingly spiritual dimension. Coltrane influenced innumerable musicians, and remains one of the most significant saxophonists in music history. He received many posthumous awards and recognitions, including canonization by the African Orthodox Church as Saint John William Coltrane and a special Pulitzer Prize in 2007.[2] His second wife was pianist Alice Coltrane and their son, Ravi Coltrane, is also a saxophonist.
-                    </p>
-                  </div>
-                </section>
-
-                <section id="comp">
-
-                  <h1>Compétences</h1>
-
-                  <div class="comp-section-content">
-                    <div class="comp-content">
-                      <img src="images/comp-320x320.png" alt="">
-                      <h2>Compétence 01</h2>
-                      <p>In 1965, Coltrane was inducted into the Down Beat Jazz Hall of Fame. In 1972, A Love Supreme was certified gold by the RIAA for selling over half a million copies in Japan. This album, as well as My Favorite Things, was certified gold in the United States in 2001.</p>
-                      <a href="#">Read More</a>
-                    </div>
-                    <div class="comp-content">
-                      <img src="images/comp-320x320.png" alt="">
-                      <h2>Compétence 01</h2>
-                      <p>In 1965, Coltrane was inducted into the Down Beat Jazz Hall of Fame. In 1972, A Love Supreme was certified gold by the RIAA for selling over half a million copies in Japan. This album, as well as My Favorite Things, was certified gold in the United States in 2001.</p>
-                      <a href="#">Read More</a>
-                    </div>
-                    <div class="comp-content">
-                      <img src="images/comp-320x320.png" alt="">
-                      <h2>Compétence 01</h2>
-                      <p>In 1965, Coltrane was inducted into the Down Beat Jazz Hall of Fame. In 1972, A Love Supreme was certified gold by the RIAA for selling over half a million copies in Japan. This album, as well as My Favorite Things, was certified gold in the United States in 2001.</p>
-                      <a href="#">Read More</a>
-                    </div>
-                  </div>
-                </section>
-
-                <section id="portfolio">
-                  <h1>Mon Portfolio</h1>
-                  <div class="portfolio-content">
-                      <div class="portfolio-content-item">
-                        <img src="images/portfolio-640x320.png" alt="This is a protfolio item">
-                        <h2><a href="#">Portfolio item title</a></h2>
-                      </div>
-                      <div class="portfolio-content-item">
-                        <img src="images/portfolio-640x320.png" alt="This is a protfolio item">
-                        <h2><a href="#">Portfolio item title</a></h2>
-                      </div>
-                      <div class="portfolio-content-item">
-                        <img src="images/portfolio-640x320.png" alt="This is a protfolio item">
-                        <h2><a href="#">Portfolio item title</a></h2>
-                      </div>
-                      <div class="portfolio-content-item">
-                        <img src="images/portfolio-640x320.png" alt="This is a protfolio item">
-                        <h2><a href="#">Portfolio item title</a></h2>
-                      </div>
-                      <div class="portfolio-content-item">
-                        <img src="images/portfolio-640x320.png" alt="This is a protfolio item">
-                        <h2><a href="#">Portfolio item title</a></h2>
-                      </div>
-                      <div class="portfolio-content-item">
-                        <img src="images/portfolio-640x320.png" alt="This is a protfolio item">
-                        <h2><a href="#">Portfolio item title</a></h2>
-                      </div>
-                  </div>
-
-                </section>
-
-                <footer>
-                  <div class="address">
-                    <span>Place I live</span>
-                    <span>Street</span>
-                    <span>Post code</span>
-                    <span>Country</span>
-                  </div>
-
-                  <div class="social-links">
-                    <ul>
-                      <li>Linkedin</li>
-                      <li>Mysite</li>
-                      <li>Facebook</li>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flore de Labarre</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/queries.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      </head>
+      <body id="top">
+        <header id="home">
+          <nav>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                  <nav class="pull">
+                    <ul class="top-nav">
+                      <li><a href="#intro">About me <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#responsive">Personal Projects <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#portfolio">Portfolio <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#contact">Get in Touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                     </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <section class="hero" id="hero">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+                  <h1 lang="fr" class="animated fadeInDown">Flore de Labarre</h1>
+                  <p class="animated fadeInUp delay-05s"><em>Graphic Designer</em></p>
+                </div>
+              </div>
+              <div class="row">
+
+              </div>
+            </div>
+          </section>
+        </header>
+        <section class="intro text-center section-padding" id="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">About me</h1>
+                <p>Hello there, welcome to my website! I am a fourth year design student at <a href="#">ECV Bordeaux</a>. I have a diploma in Communication and Events and graduated high school with a European diploma. I speak English, French, an average italian and know a little German. Passionate about my studies, I specialize in branding (including packaging) but have no problem working on illustrations, typography and web design. Event though I love design, my other hobbies are cooking and music.</p>
+                <p lang="fr"> <em>Bonjour, bienvenue sur mon site web! Actuellement en 1ère année de Master à <a href="#">l'ECV Bordeaux</a>, j'ai un BTS en Communication/Événementiel et un BAC européen. Je parle français, anglais, un italien correcte et mon allemand n'est pas catastrophique. Passionée par mes études, je suis spécialisée dans l'identité visuelle et le packaging mais n'ai aucun problème à travailler sur des illustrations, de la typographie et du webdesign. À coté de ça, j'adore la cuisine et travaille toujours en musique.</em></p>
+              </div>
+            </div>
+          </div>
+        </section>
+                  <div class="clearfix"></div>
+
+        <section class="text-center" id="responsive">
+          <div class="container-fluid nopadding responsive-services">
+            <div class="wrapper">
+              <div class="iphone">
+                <div id="slides">
+                  <img src="img/img1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+                  <img src="img/img2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+                  <img src="img/img3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+                  <img src="img/img4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+                </div>
+              </div>
+
+
+            </div>
+            <div class="container designs">
+              <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+
+                        <h1 class="arrow">Personal Projects</h1>
+                        <p> These projects are some of the work I made during my free time. They have nothing to do with my school work or internships. </p>
+                        <p> Ces projets ont été réalisés lors de mon temps libre. Ils n'ont rien à voir avec mes projet de cours ou avec les stages réalisés.</p>
 
                   </div>
+                </div>
+          </div>
+          </div>
+        </section>
+        <section class="swag text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1>I got 99 Problems<span>but <em>design</em> 'aint one</span></h1>
+                <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h1 class="arrow text-center section-padding">Portfolio</h1>
+        <section class="portfolio text-center section-padding" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div id="portfolioSlider">
+                <ul class="slides">
+                  <li>
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-01.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
 
-                </footer>
+                      <div>
+                      <h2>Branding</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                    </div>
+                    </div>
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-02.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Packaging</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                    </div>
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-03.jpg" alt="Portfolio Item" />
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Typography</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-01.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Web Design</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                    </div>
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-02.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Illustration</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                    </div>
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-03.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Photography</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="ignite-cta text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="#" class="ignite-btn">Ignite Your Passion</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <section class="dark-bg text-center section-padding contact-wrap" id="contact">
+          <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Contact me</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+              <div class="col-md-4">
+                <div class="light-box box-hover">
+                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+                  <p>Bordeaux, France</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="light-box box-hover">
+                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+                  <p>+33 6 42 9 73 45</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="light-box box-hover">
+                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                  <p><a href="#">floremirieudelabarre@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="social-buttons">
+                  <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="legals">
+                  <li><a href="#">Terms &amp; Conditions</a></li>
+                  <li><a href="#">Legals</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 credit">
+                <p>The base of this website is a free template created by <a href="http://tympanus.net/codrops/"><em>Codrops</em></a></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/jquery.slides.min.js"></script>
+        <!-- End SlidesJS Required -->
 
+        <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+        <script>
+          $(function() {
+            $('#slides').slidesjs({
+              width: 940,
+              height: 940,
+              play: {
+                active: true,
+                auto: true,
+                interval: 4000,
+                swap: true
+              }
+            });
+          });
+          </script>
 
-            </body>
-
-</html>
+      </body>
+    </html>
